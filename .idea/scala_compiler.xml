@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="scala-cats" />
+    <profile name="sbt 2" modules="scala-cats.main,scala-cats.test">
+      <option name="higherKinds" value="true" />
+    </profile>
+  </component>
+</project>
